@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #md1{
+            display: grid;
+            justify-content: center;
+            background-image: url(https://img.freepik.com/free-vector/brick-wall-realistic_1284-4683.jpg);
+            background-size: cover;
+        }
+
+       
+        #imgg1,#imgg2,#imgg3,#imgg4,#imgg5{
+            height: 100px;
+            width: 100px;
+            margin-left: 100px;
+            margin-top: 50px;
+                    
+        }
+
+        #div2{
+            border: 1px solid black;
+            height:400px;
+            width:400px;
+            margin-left: 300px;
+            margin-top: 150px;
+            border-radius: 10%;
+
+        }
+
+    </style>
+</head>
+<body>
+    
+
+
+    <script>
+    
+    var md=document.createElement("div")
+    document.body.appendChild(md)
+    md.setAttribute("id","md1")
+           
+    var div1=document.createElement("div")
+    md.appendChild(div1)
+    div1.setAttribute("id","divv1")
+
+    var div2=document.createElement("div")
+    div1.appendChild(div2)
+    div2.setAttribute("id","div2")
+    
+    var imgg=document.createElement("img")
+    div2.appendChild(imgg)
+    imgg.setAttribute("src","https://rukminim2.flixcart.com/image/850/1000/xif0q/doll-doll-house/o/w/g/doll-set-movable-joint-makeup-cute-girl-brown-eyes-fashionable-original-imagjqwntbpuptxh.jpeg?q=90&crop=false")
+    imgg.setAttribute("style","height:400px;width:400px;border-radius:10%")
+        
+    var img1=document.createElement("img")
+    div1.appendChild(img1)
+    img1.setAttribute("src","https://cdn4.sharechat.com/img_458425_5de5449_1676951853883_sc.jpg?tenant=sc&referrer=pwa-sharechat-service&f=883_sc.jpg")
+    img1.setAttribute("id","imgg1")
+    img1.addEventListener("click",img11)
+
+    function img11(){
+        imgg.setAttribute("src","https://cdn4.sharechat.com/img_458425_5de5449_1676951853883_sc.jpg?tenant=sc&referrer=pwa-sharechat-service&f=883_sc.jpg")
+    }
+
+    var img2=document.createElement("img")
+    div1.appendChild(img2)
+    img2.setAttribute("src","https://cdn4.sharechat.com/img_55038_317a360_1684064052396_sc.jpg?tenant=sc&referrer=tag-service&f=396_sc.jpg")
+    img2.setAttribute("id","imgg2")
+    img2.addEventListener("click",img12)
+
+    function img12(){
+        imgg.setAttribute("src","https://cdn4.sharechat.com/img_55038_317a360_1684064052396_sc.jpg?tenant=sc&referrer=tag-service&f=396_sc.jpg")
+    }
+
+    var img3=document.createElement("img")
+    div1.appendChild(img3)
+    img3.setAttribute("src","https://instacaptionsforall.in/wp-content/uploads/2023/12/converted_37-1024x1024.jpg")
+    img3.setAttribute("id","imgg3")
+    img3.addEventListener("click",img13)
+
+    function img13(){
+        imgg.setAttribute("src","https://instacaptionsforall.in/wp-content/uploads/2023/12/converted_37-1024x1024.jpg")
+    }
+
+    var img4=document.createElement("img")
+    div1.appendChild(img4)
+    img4.setAttribute("src","https://www.beautiful-you.in/wp-content/uploads/2023/06/2-1.jpg")
+    img4.setAttribute("id","imgg4")
+    img4.addEventListener("click",img14)
+
+    function img14(){
+        imgg.setAttribute("src","https://www.beautiful-you.in/wp-content/uploads/2023/06/2-1.jpg")
+    }
+
+    var img5=document.createElement("img")
+    div1.appendChild(img5)
+    img5.setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqjcBh0CVusfr0iEqVO5h7IjjdDDe1gW1NqeOwe3KCwRG3o0UgAwazXj4ILe0n-9mt7Bw&usqp=CAU")
+    img5.setAttribute("id","imgg5")
+    img5.addEventListener("click",img15)
+
+    function img15(){
+        imgg.setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqjcBh0CVusfr0iEqVO5h7IjjdDDe1gW1NqeOwe3KCwRG3o0UgAwazXj4ILe0n-9mt7Bw&usqp=CAU")
+    }
+
+
+
+
+
+    </script>
+</body>
+</html>
